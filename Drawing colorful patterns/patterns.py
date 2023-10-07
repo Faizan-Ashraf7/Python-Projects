@@ -5,5 +5,5 @@ turtle.bgcolor('black')
 for i in range(360):
   turtle.pencolor(colors[i% len(colors)])
   turtle.forward(i)
-  turtle.right(150)
+  turtle.right(50)
 turtle.exitonclick()
